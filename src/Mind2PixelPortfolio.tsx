@@ -1,5 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Code, Smartphone, Palette, Globe, Search, MessageCircle, TrendingUp, ArrowRight, Sparkles, CheckCircle, Mail, Phone, MapPin, ExternalLink, Github } from 'lucide-react';
+import { 
+  Menu, X, Code, Smartphone, Palette, Globe, Search, MessageCircle, TrendingUp, 
+  ArrowRight, Sparkles, CheckCircle, Mail, Phone, MapPin 
+} from 'lucide-react';
+
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
@@ -11,15 +15,16 @@ export default function Mind2PixelPortfolio() {
     const [scrolled, setScrolled] = useState(false);
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
-    function handleSubmit(event) {
+    function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
   event.preventDefault();
-  const form = event.target;
+
+  const form = event.target as HTMLFormElement;
 
   const templateParams = {
-    from_name: form.name.value,
-    from_email: form.email.value,
-    from_phone: form.phone?.value || "Not provided",
-    message: form.message.value,
+    from_name: (form.elements.namedItem("name") as HTMLInputElement)?.value || "",
+    from_email: (form.elements.namedItem("email") as HTMLInputElement)?.value || "",
+    from_phone: (form.elements.namedItem("phone") as HTMLInputElement)?.value || "Not provided",
+    message: (form.elements.namedItem("message") as HTMLTextAreaElement)?.value || "",
   };
 
   emailjs
@@ -30,13 +35,16 @@ export default function Mind2PixelPortfolio() {
     })
     .catch((error) => {
       console.error("EmailJS Error:", error);
-      alert("⚠️ There was an issue submitting your message. Please try again later or contact us directly at +91 6354920939.");
+      alert(
+        "⚠️ There was an issue submitting your message. Please try again later or contact us directly at +91 6354920939."
+      );
     });
 }
 
+
     useEffect(() => {
         const handleScroll = () => setScrolled(window.scrollY > 50);
-        const handleMouseMove = (e) => {
+        const handleMouseMove = (e: MouseEvent) => {
             setMousePosition({ x: e.clientX, y: e.clientY });
         };
 
@@ -359,7 +367,7 @@ export default function Mind2PixelPortfolio() {
 
               <textarea
                 name="message"
-                rows="6"
+                rows={6}
                 placeholder="Tell us about your project..."
                 required
                 className="w-full bg-slate-900/50 border border-purple-500/30 rounded-xl px-6 py-4 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all resize-none"
