@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X, Sparkles, ArrowRight, ExternalLink, ArrowLeft, ChevronRight, ChevronLeft, XCircle } from 'lucide-react';
 
 export default function Mind2PixelProjects() {
@@ -11,7 +11,7 @@ export default function Mind2PixelProjects() {
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e:MouseEvent) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
     
