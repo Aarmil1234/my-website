@@ -231,11 +231,11 @@ export default function Mind2PixelProjects() {
       category: "app",
       description: "Real-time payment transfer system for instant transactions",
       images: [
-        "./src/assets/DuitNow/LP.jpeg",
-        "./src/assets/DuitNow/LOgin.jpeg",
-        "./src/assets/DuitNow/HOme.jpeg",
-        "./src/assets/DuitNow/2.jpeg",
-        "./src/assets/DuitNow/3.jpeg",
+        "./assets/DuitNow/LP.jpeg",
+        "./assets/DuitNow/LOgin.jpeg",
+        "./assets/DuitNow/HOme.jpeg",
+        "./assets/DuitNow/2.jpeg",
+        "./assets/DuitNow/3.jpeg",
       ],
       technologies: ["Web App", "Payment System"],
       color: "from-green-500 to-teal-500"
@@ -246,10 +246,10 @@ export default function Mind2PixelProjects() {
       category: "app",
       description: "QR code scanner and generator with advanced features",
       images: [
-        "./src/assets/Scannato/Login.jpeg",
-        "./src/assets/Scannato/Navbar.jpeg",
-        "./src/assets/Scannato/Files.jpeg",
-        "./src/assets/Scannato/Dashboard.jpeg",
+        "./assets/Scannato/Login.jpeg",
+        "./assets/Scannato/Navbar.jpeg",
+        "./assets/Scannato/Files.jpeg",
+        "./assets/Scannato/Dashboard.jpeg",
       ],
       technologies: ["Mobile App", "QR Technology"],
       color: "from-purple-500 to-pink-500"
@@ -260,11 +260,11 @@ export default function Mind2PixelProjects() {
       category: "app",
       description: "Skincare and beauty product management application",
       images: [
-        "./src/assets/Yeotaskin/LP.jpeg",
-        "./src/assets/Yeotaskin/Home.jpeg",
-        "./src/assets/Yeotaskin/2.jpeg",
-        "./src/assets/Yeotaskin/3rd.jpeg",
-        "./src/assets/Yeotaskin/4th.jpeg",
+        "./assets/Yeotaskin/LP.jpeg",
+        "./assets/Yeotaskin/Home.jpeg",
+        "./assets/Yeotaskin/2.jpeg",
+        "./assets/Yeotaskin/3rd.jpeg",
+        "./assets/Yeotaskin/4th.jpeg",
       ],
       technologies: ["Mobile App", "E-commerce"],
       color: "from-pink-500 to-rose-500"
@@ -275,11 +275,11 @@ export default function Mind2PixelProjects() {
       category: "app",
       description: "Smart queue management mobile application for businesses",
       images: [
-        "./src/assets/Queueless/LP.jpeg",
-        "./src/assets/Queueless/Home.jpeg",
-        "./src/assets/Queueless/2.jpeg",
-        "./src/assets/Queueless/3.jpeg",
-        "./src/assets/Queueless/4.jpeg",
+        "./assets/Queueless/LP.jpeg",
+        "./assets/Queueless/Home.jpeg",
+        "./assets/Queueless/2.jpeg",
+        "./assets/Queueless/3.jpeg",
+        "./assets/Queueless/4.jpeg",
       ],
       technologies: ["Mobile App", "Queue Management"],
       color: "from-emerald-500 to-teal-500"
@@ -333,7 +333,68 @@ export default function Mind2PixelProjects() {
       technologies: ["Photoshop", "Illustrator", "CorelDRAW"],
       liveUrl: "https://drive.google.com/drive/folders/1_TjzkH2yCZ7Iy_wAw9AfGR9-jEf3tuyL",
       color: "from-rose-500 to-orange-500"
-    }
+    },
+  {
+  id: 31,
+  title: "Hairhouse Australia",
+  category: "shopify",
+  description: "Large-scale eCommerce store for hair care, beauty products, and salon services.",
+  image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&h=600&fit=crop",
+  technologies: ["Shopify", "Liquid", "E-commerce"],
+  liveUrl: "https://www.hairhouse.com.au/",
+  color: "from-pink-500 to-purple-500"
+},
+{
+  id: 32,
+  title: "Biossance",
+  category: "shopify",
+  description: "Premium skincare eCommerce platform with clean UI and high-performance UX.",
+  image: "https://images.unsplash.com/photo-1585232351009-aa87416fca90?w=800&h=600&fit=crop",
+  technologies: ["Shopify Plus", "E-commerce", "Custom Theme"],
+  liveUrl: "https://biossance.com/",
+  color: "from-emerald-500 to-teal-500"
+},
+{
+  id: 33,
+  title: "Healthy Options PH",
+  category: "shopify",
+  description: "Health and wellness eCommerce store with modern shopping experience.",
+  image: "https://images.happycow.net/venues/1024/31/56/hcmp31563_1724814.jpeg?w=800&h=600&fit=crop",
+  technologies: ["Shopify", "E-commerce"],
+  liveUrl: "https://shop.healthyoptions.com.ph/",
+  color: "from-green-500 to-lime-500"
+},
+{
+  id: 34,
+  title: "Tech4Phones",
+  category: "shopify",
+  description: "Mobile accessories and electronics Shopify store with conversion-focused layout.",
+  image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=600&fit=crop",
+  technologies: ["Shopify", "E-commerce"],
+  liveUrl: "https://tech4phones.com/",
+  color: "from-blue-500 to-indigo-500"
+},
+{
+  id: 35,
+  title: "8Typical",
+  category: "shopify",
+  description: "Helping leaders and organizations build resilient, agile, and effective teams",
+  image: "https://miro.medium.com/1*l2ujch_L4t86PQZco31Ebw.png?w=800&h=600&fit=crop",
+  technologies: ["Shopify", "Custom Theme"],
+  liveUrl: "https://8typical.com/",
+  color: "from-slate-600 to-slate-800"
+},
+{
+  id: 36,
+  title: "AyuVita Ayurveda",
+  category: "shopify",
+  description: "Ayurvedic and wellness product store built on Shopify with clean UI.",
+  image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&h=600&fit=crop",
+  technologies: ["Shopify", "E-commerce"],
+  liveUrl: "https://ayuvitaayurveda.in/",
+  color: "from-amber-500 to-orange-500"
+}
+
   ];
 
   const handleAppClick = (project: any) => {
