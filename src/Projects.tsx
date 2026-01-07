@@ -141,7 +141,7 @@ export default function Mind2PixelProjects() {
       category: "shopify",
       description: "Professional WordPress website with custom design and functionality",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-      technologies: ["WordPress"],
+      technologies: ["Shopify"],
       liveUrl: "https://vulcal.com/",
       color: "from-blue-500 to-purple-500"
     },
@@ -287,7 +287,7 @@ export default function Mind2PixelProjects() {
     {
       id: 26,
       title: "Admin Panel - Internal Management Tool",
-      category: "graphics",
+      category: "uiux",
       description: "Comprehensive admin dashboard with data visualization and user management features",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
       technologies: ["Figma", "UI/UX Design"],
@@ -297,7 +297,7 @@ export default function Mind2PixelProjects() {
     {
       id: 27,
       title: "Fitness Application Design",
-      category: "graphics",
+      category: "uiux",
       description: "Modern fitness app with workout tracking, nutrition plans, and progress monitoring",
       image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop",
       technologies: ["Figma", "UI/UX Design", "Prototyping"],
@@ -307,7 +307,7 @@ export default function Mind2PixelProjects() {
     {
       id: 28,
       title: "Portfolio Website Design",
-      category: "graphics",
+      category: "uiux",
       description: "Creative portfolio website design showcasing modern layouts and interactions",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop",
       technologies: ["Figma", "UI/UX Design"],
@@ -317,7 +317,7 @@ export default function Mind2PixelProjects() {
     {
       id: 29,
       title: "Uber App Redesign",
-      category: "graphics",
+      category: "uiux",
       description: "Modern ride-sharing app design with enhanced user experience and intuitive navigation",
       image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop",
       technologies: ["Figma", "UI/UX Design", "Prototyping"],
@@ -447,6 +447,13 @@ export default function Mind2PixelProjects() {
     //   description: 'WhatsApp Business API & automation',
     //   color: 'from-green-500 to-emerald-500'
     // },
+     { 
+      id: 'uiux', 
+      label: 'UI/UX Design',
+      icon: '🎯',
+      description: 'User interface and experience design',
+      color: 'from-violet-500 to-purple-500'
+    },
     { 
       id: 'graphics', 
       label: 'Graphic Design',
