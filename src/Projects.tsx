@@ -521,7 +521,7 @@ export default function Mind2PixelProjects() {
               <a href="#" className="text-purple-400 font-semibold">Projects</a>
               <button
                 onClick={() => {
-                  const phoneNumber = "916354920939";
+                  const phoneNumber = "919316718907";
                   const message = encodeURIComponent("Hello! I'd like to start a project with Mind2Pixel.");
                   window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
                 }}
@@ -545,7 +545,7 @@ export default function Mind2PixelProjects() {
               <a href="#" className="block text-purple-400 font-semibold">Projects</a>
               <button
                 onClick={() => {
-                  const phoneNumber = "916354920939";
+                  const phoneNumber = "919316718907";
                   const message = encodeURIComponent("Hello! I'd like to start a project with Mind2Pixel.");
                   window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
                 }}
@@ -760,7 +760,7 @@ export default function Mind2PixelProjects() {
             </p>
             <button
               onClick={() => {
-                const phoneNumber = "916354920939";
+                const phoneNumber = "919316718907";
                 const message = encodeURIComponent("Hello! I'd like to start a project with Mind2Pixel.");
                 window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
               }}

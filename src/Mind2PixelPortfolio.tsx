@@ -36,7 +36,7 @@ export default function Mind2PixelPortfolio() {
     .catch((error) => {
       console.error("EmailJS Error:", error);
       alert(
-        "⚠️ There was an issue submitting your message. Please try again later or contact us directly at +91 6354920939."
+        "⚠️ There was an issue submitting your message. Please try again later or contact us directly at +91 9316718907."
       );
     });
 }
@@ -144,7 +144,7 @@ export default function Mind2PixelPortfolio() {
                             <a href="#contact" className="hover:text-purple-400 transition-colors">Contact</a>
                             <button
                                 onClick={() => {
-                                    const phoneNumber = "916354920939"; // replace with your number
+                                    const phoneNumber = "919316718907"; 
                                     const message = encodeURIComponent("Hello! I’d like to start a project with Mind2Pixel.");
                                     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
                                 }}
@@ -170,7 +170,7 @@ export default function Mind2PixelPortfolio() {
                             <a href="#contact" className="block hover:text-purple-400 transition-colors">Contact</a>
                             <button
                                 onClick={() => {
-                                    const phoneNumber = "916354920939"; // replace with your number
+                                    const phoneNumber = "919316718907"; // replace with your number
                                     const message = encodeURIComponent("Hello! I’d like to start a project with Mind2Pixel.");
                                     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
                                 }}
@@ -204,7 +204,7 @@ export default function Mind2PixelPortfolio() {
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 sm:mb-16 px-4">
                         <button
                             onClick={() => {
-                                const phoneNumber = "916354920939"; // replace with your number
+                                const phoneNumber = "919316718907"; // replace with your number
                                 const message = encodeURIComponent("Hello! I’d like to start a project with Mind2Pixel.");
                                 window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
                             }}
@@ -383,33 +383,33 @@ export default function Mind2PixelPortfolio() {
 
                         <div className="grid md:grid-cols-4 gap-6 mt-12 pt-12 border-t border-purple-500/20">
                             <div className="text-center">
-                                <a href="mailto:aarmilsadarani981@gmail.com" className="block">
+                                <a href="mailto:info@mind2pixel.in" className="block">
                                     <Mail className="w-8 h-8 text-purple-400 mx-auto mb-3" />
                                     <p className="text-gray-400 hover:text-purple-300 transition-colors">
-                                        aarmilsadarani981@gmail.com
+                                        info@mind2pixel.in
                                     </p>
                                 </a>
                             </div>
 
                             <div className="text-center">
-                                <a href="tel:+916354920939" className="block">
+                                <a href="tel:+919316718907" className="block">
                                     <Phone className="w-8 h-8 text-cyan-400 mx-auto mb-3" />
                                     <p className="text-gray-400 hover:text-cyan-300 transition-colors">
-                                        +91 6354920939
+                                        +91 9316718907
                                     </p>
                                 </a>
                             </div>
 
                             <div className="text-center">
                                 <a
-                                    href="https://wa.me/916354920939?text=Hello!%20I%E2%80%99d%20like%20to%20start%20a%20project%20with%20Mind2Pixel."
+                                    href="https://wa.me/919316718907?text=Hello!%20I%E2%80%99d%20like%20to%20start%20a%20project%20with%20Mind2Pixel."
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="block"
                                 >
                                     <MessageCircle className="w-8 h-8 text-green-400 mx-auto mb-3" />
                                     <p className="text-gray-400 hover:text-green-300 transition-colors">
-                                        +91 6354920939  
+                                        +91 9316718907  
                                     </p>
                                 </a>
                             </div>
