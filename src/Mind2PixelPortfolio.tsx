@@ -392,24 +392,24 @@ export default function Mind2PixelPortfolio() {
                             </div>
 
                             <div className="text-center">
-                                <a href="tel:+919316718907" className="block">
+                                <a href="tel:+916354920939" className="block">
                                     <Phone className="w-8 h-8 text-cyan-400 mx-auto mb-3" />
                                     <p className="text-gray-400 hover:text-cyan-300 transition-colors">
-                                        +91 9316718907
+                                        +91 6354920939
                                     </p>
                                 </a>
                             </div>
 
                             <div className="text-center">
                                 <a
-                                    href="https://wa.me/919316718907?text=Hello!%20I%E2%80%99d%20like%20to%20start%20a%20project%20with%20Mind2Pixel."
+                                    href="https://wa.me/916354920939?text=Hello!%20I%E2%80%99d%20like%20to%20start%20a%20project%20with%20Mind2Pixel."
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="block"
                                 >
                                     <MessageCircle className="w-8 h-8 text-green-400 mx-auto mb-3" />
                                     <p className="text-gray-400 hover:text-green-300 transition-colors">
-                                        +91 9316718907  
+                                        +91 6354920939  
                                     </p>
                                 </a>
                             </div>
@@ -423,7 +423,7 @@ export default function Mind2PixelPortfolio() {
                                 >
                                     <MapPin className="w-8 h-8 text-pink-400 mx-auto mb-3" />
                                     <p className="text-gray-400 hover:text-pink-300 transition-colors">
-                                        Ahmedabad, Gujarat, IN
+                                        Rajkot, Gujarat, IN
                                     </p>
                                 </a>
                             </div>
@@ -445,7 +445,7 @@ export default function Mind2PixelPortfolio() {
                         </div>
 
                         <p className="text-gray-400 text-center md:text-right">
-                            © 2024 Mind2Pixel. Transforming ideas into digital excellence.
+                            © 2026  Mind2Pixel. Transforming ideas into digital excellence.
                         </p>
                     </div>
                 </div>
