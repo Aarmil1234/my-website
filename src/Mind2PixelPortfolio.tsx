@@ -423,7 +423,7 @@ export default function Mind2PixelPortfolio() {
                                 >
                                     <MapPin className="w-8 h-8 text-pink-400 mx-auto mb-3" />
                                     <p className="text-gray-400 hover:text-pink-300 transition-colors">
-                                        Rajkot, Gujarat, IN
+                                        Ahmedabad, Gujarat, IN
                                     </p>
                                 </a>
                             </div>
